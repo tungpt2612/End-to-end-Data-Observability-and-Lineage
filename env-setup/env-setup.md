@@ -41,4 +41,4 @@ cat id_rsa.pub
 ![Step 3](/env-setup/ssh3.png)
 
 - Step 4
-![Step 4](/env-setup/ssh4.png)
+![Step 5](/env-setup/ssh4.png)
