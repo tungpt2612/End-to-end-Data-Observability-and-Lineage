@@ -62,5 +62,26 @@ apt install openjdk-11-jdk
 java-version
 ```	
 
+## (Optional) Setup Local Spark
+- Prepare folder
+```console
+mkdir ~/spark
+cd ~/spark/
+wget https://dlcdn.apache.org/spark/spark-3.5.3/spark-3.5.3-bin-hadoop3.tgz
+tar -xvzf spark-3.5.3-bin-hadoop3.tgz 
+vi ~/.bashrc 
+```
 
+- Vi Content
+```console
+export SPARK_HOME=~/spark/spark-3.5.3-bin-hadoop3
+export PATH=$SPARK_HOME/bin:$PATH
+export PATH=$SPARK_HOME/sbin:$PATH
+```
 
+- Check
+```console
+source ~/.bashrc 
+spark-shell 
+exit
+```
