@@ -33,17 +33,17 @@ cat id_rsa.pub
 ## Setup new key for GitHib in web
 - Step 1
 
-![Step 1](/env-setup/ssh1.png)
+<kbd>![Step 1](/env-setup/ssh1.png)<kbd>
 
 - Step 2
 
-![Step 2](/env-setup/ssh2.png)
+<kbd>![Step 2](/env-setup/ssh2.png)<kbd>
 
 - Step 3
 
-![Step 3](/env-setup/ssh3.png)
+<kbd>![Step 3](/env-setup/ssh3.png)<kbd>
 
 - Step 4
 
-![Step 5](/env-setup/ssh4.png)
+<kbd>![Step 5](/env-setup/ssh4.png)<kbd>
 
