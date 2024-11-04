@@ -30,7 +30,7 @@ ls
 cat id_rsa.pub
 ```
 
-- Setup new key for GitHib in web
+## Setup new key for GitHib in web
 - Step 1
 ![Step 1](/env-setup/ssh1.png)
 
