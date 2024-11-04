@@ -118,8 +118,7 @@ Dependent JARs path
 s3://ibmholbucket/openlineage-spark-1.4.1.jar
 ```
 
-- Job parameters:
-
+- Job parameters 1:
 ```console
 --additional-python-modules
 ```
@@ -128,6 +127,7 @@ s3://ibmholbucket/openlineage-spark-1.4.1.jar
 dbnd
 ```
 
+- Job parameters 2:
 ```console
 --conf
 ```
@@ -136,6 +136,7 @@ dbnd
 spark.extraListeners=io.openlineage.spark.agent.OpenLineageSparkListener --conf spark.openlineage.transport.type=http --conf spark.openlineage.transport.url=http://130.198.22.73:8080 --conf spark.openlineage.transport.endpoint=/api/v1/lineage --conf spark.openlineage.transport.auth.type=api_key --conf spark.openlineage.transport.auth.apiKey=Ufc3konorJ8ObYeE5pu6w6jmMnf4wg7caAhGUnnu --conf spark.openlineage.namespace=glue-ingest-redshift
 ```
 
+- Job parameters 3:
 ```console
 --user-jars-first
 ```
