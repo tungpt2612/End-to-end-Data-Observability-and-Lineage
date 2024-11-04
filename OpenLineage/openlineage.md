@@ -74,3 +74,24 @@ curl -X POST http://localhost:5000/api/v1/lineage   -i -H 'Content-Type: applica
 - Marquez Console
 
 <kbd>![marquez-console](/OpenLineage/marquez-console-1.png)<kbd>
+	
+## Setup Gradle
+Running Gradle change the port for listening Spark Job from 5000 to 8080
+
+- Build
+```console
+cd OpenLineage
+cd proxy/
+cd backend/
+./gradlew build
+```
+
+- Backup proxy file
+```console
+cp proxy.example.yml proxy.yml
+```
+
+- Run the gradle
+```console
+nohup ./gradlew runShadow &
+```
