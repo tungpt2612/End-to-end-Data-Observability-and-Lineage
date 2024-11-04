@@ -27,7 +27,6 @@ sudo docker run hello-world
 ssh-keygen -t rsa
 cd ~/.ssh/
 ls
-cat id_rsa.pub
 ```
 
 - Use this key for next GitHub setup
