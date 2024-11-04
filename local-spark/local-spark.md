@@ -10,12 +10,12 @@ cd ~/pyspark/
 ```
 
 - Download Jars file
-```python
+```console
 wget https://repo.maven.apache.org/maven2/io/openlineage/openlineage-spark/1.4.1/openlineage-spark-1.4.1.jar
 ```
 
 - Create Python script
-```console
+```python
 from pyspark.sql import SparkSession
 
 spark = SparkSession.builder \
