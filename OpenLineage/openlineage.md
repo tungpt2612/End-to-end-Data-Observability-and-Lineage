@@ -4,24 +4,24 @@ This section covers step by step guidance for OpenLineage Setup.
 
 ## Git Clone
 - For current setup
-```shell script
+```console
 git clone https://github.com/OpenLineage/OpenLineage
 ```
 
 - (Optional) For basic setup
-```shell script
+```console
 git clone git@github.com:MarquezProject/marquez.git && cd marquez
 ```
 
 ## Start container
-```shell script
+```console
 cd OpenLineage/integration/spark
 docker-compose up
 ```
 
 ## Manually testing
 - Simulate Start Event
-```shell script
+```console
 curl -X POST http://localhost:5000/api/v1/lineage   -i -H 'Content-Type: application/json'   -d '{
         "eventType": "START",
         "eventTime": "2020-12-28T19:52:00.001+10:00",
@@ -41,7 +41,7 @@ curl -X POST http://localhost:5000/api/v1/lineage   -i -H 'Content-Type: applica
 ```
 
 - Simulate Complete Event
-```shell script
+```console
 curl -X POST http://localhost:5000/api/v1/lineage   -i -H 'Content-Type: application/json'   -d '{
         "eventType": "COMPLETE",
         "eventTime": "2020-12-28T20:52:00.001+10:00",
