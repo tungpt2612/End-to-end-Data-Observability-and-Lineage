@@ -33,6 +33,7 @@ ls
 ```console
 cat id_rsa.pub
 ```
+
 ## Setup new key for GitHub in web
 - Step 1
 
