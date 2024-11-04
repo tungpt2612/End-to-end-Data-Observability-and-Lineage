@@ -4,12 +4,12 @@ This section covers step by step guidance for Environment Setup.
 
 ## Docker Setup:
 - Login to Ubuntu 22.04 system
-```shell script
+```console
 ssh -i ~/.ssh/bsp root@XXX.XXX.XX.XX
 ```
 
 - Using root user
-```shell script
+```console
 sudo su -
 ```
 
@@ -23,14 +23,18 @@ sudo docker run hello-world
 
 ## Generate SSH-key
 - Generate key from Ubuntu system
-```shell script
+```console
 ssh-keygen -t rsa
 cd ~/.ssh/
 ls
 cat id_rsa.pub
 ```
 
-## Setup new key for GitHib in web
+- Use this key for next GitHub setup
+```console
+cat id_rsa.pub
+```
+## Setup new key for GitHub in web
 - Step 1
 
 <kbd>![Step 1](/env-setup/ssh1.png)<kbd>
@@ -47,6 +51,16 @@ cat id_rsa.pub
 
 <kbd>![Step 5](/env-setup/ssh4.png)<kbd>
 	
+## Setup Java
+- Setup
+```console
+apt install openjdk-11-jdk
+```
+
+- Check	
+```console
+java-version
+```	
 
 
 
