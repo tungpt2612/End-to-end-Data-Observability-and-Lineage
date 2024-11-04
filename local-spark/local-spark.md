@@ -50,3 +50,5 @@ spark.stop()
 spark-submit --jars openlineage-spark-1.4.1.jar --files log4j-openlineage.xml openlineage_spark_tungpt.py
 ```
 
+- Check result
+<kbd>![marquez-console](/local-spark/local-spark.png)<kbd>
