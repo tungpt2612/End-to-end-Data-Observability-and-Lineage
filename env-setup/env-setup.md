@@ -46,4 +46,7 @@ cat id_rsa.pub
 - Step 4
 
 <kbd>![Step 5](/env-setup/ssh4.png)<kbd>
+	
+
+
 
