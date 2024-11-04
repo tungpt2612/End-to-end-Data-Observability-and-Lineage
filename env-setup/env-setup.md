@@ -4,7 +4,7 @@ This section covers step by step guidance for Environment Setup.
 
 ## Docker Setup:
 - Login to Ubuntu 22.04 system
-```console
+```shell script
 ssh -i ~/.ssh/bsp root@XXX.XXX.XX.XX
 ```
 
@@ -21,3 +21,5 @@ apt-get install docker-compose-plugin
 sudo docker run hello-world
 ```
 
+## Generate SSH-key
+- 
