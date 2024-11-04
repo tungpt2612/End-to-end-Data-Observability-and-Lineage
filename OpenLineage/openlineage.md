@@ -95,3 +95,27 @@ cp proxy.example.yml proxy.yml
 ```console
 nohup ./gradlew runShadow &
 ```
+
+- During Gradle running, it will receive Spark Events whenever the Spark Job runs. Spark Events will be spool as JSON format.
+- Seperated those events into single json file and put it into folder have structure like this:
+```console
+cd input/openlineage/openlineage/events/
+ls -ltr
+```
+```console
+-rw-r--r--@ 1 tungpham  staff  6261 Oct 17 15:48 8.json
+-rw-r--r--@ 1 tungpham  staff  6592 Oct 17 15:48 7.json
+-rw-r--r--@ 1 tungpham  staff  6606 Oct 17 15:48 6.json
+-rw-r--r--@ 1 tungpham  staff  6258 Oct 17 15:49 5.json
+-rw-r--r--@ 1 tungpham  staff  5250 Oct 17 15:49 4.json
+-rw-r--r--@ 1 tungpham  staff  5252 Oct 17 15:49 3.json
+-rw-r--r--@ 1 tungpham  staff  5596 Oct 17 15:49 2.json
+-rw-r--r--@ 1 tungpham  staff  5249 Oct 17 15:50 1.json
+```
+
+- Zip the file
+```console
+zip -r input.zip input
+```
+<kbd>![manta-input-structure](/OpenLineage/manta-input-structure.png)<kbd>
+
