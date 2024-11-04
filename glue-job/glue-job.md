@@ -144,3 +144,11 @@ spark.extraListeners=io.openlineage.spark.agent.OpenLineageSparkListener --conf 
 ```console
 true
 ```
+
+## Addtional Jars for Glue Job
+- Download Jar file from the link
+```console
+https://repo.maven.apache.org/maven2/io/openlineage/openlineage-spark/1.4.1/openlineage-spark-1.4.1.jar
+```
+
+- Upload Jar file to Amazon S3
