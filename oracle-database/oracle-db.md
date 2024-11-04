@@ -59,3 +59,28 @@ sqlplus sys/oracle@corebank as sysdba
 create user temenos identified by oracle;
 ```
 
+- Grant permissions
+```sql
+grant connect, dba, resource to temenos; 
+```
+
+- Login again as new user
+```console
+sqlplus temenos/oracle@corebank
+```
+
+- Create tables
+```sql
+CREATE TABLE "TEMENOS"."RAW_CITY" 
+   (	"COUNTRY_CODE" VARCHAR2(20), 
+		"CITY_CODE" VARCHAR2(20), 
+		"CITY_NAME" VARCHAR2(20)
+   );
+```
+
+```sql
+CREATE TABLE "TEMENOS"."RAW_COUNTRY" 
+   (	"COUNTRY_CODE" VARCHAR2(20), 
+		"COUNTRY_NAME" VARCHAR2(20)
+   );
+```
