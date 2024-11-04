@@ -1,6 +1,10 @@
 # End to end Data Observability and Data Lineage
 
+This section covers step by step guidance for PoX of Databand and Manta.
 
+We have defined PoX as having 3 data stores: OLTP system, Staging, Data Warehouse. 
+
+DataStage will be used for ETL from OLTP to Staging and Glue Job Spark will be used to ingesting data from Staging to Data Warehouse. Redshift Store Procedure will be used for further transform in Warehouse.
 
 ## Environments:
 - Ubuntu 22.04
