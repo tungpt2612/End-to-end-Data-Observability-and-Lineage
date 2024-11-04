@@ -73,4 +73,4 @@ curl -X POST http://localhost:5000/api/v1/lineage   -i -H 'Content-Type: applica
 
 - Marquez Console
 
-<kbd>![marquez-console](/OpenLineage/marquez-console.png)<kbd>
+<kbd>![marquez-console](/OpenLineage/marquez-console-1.png)<kbd>
