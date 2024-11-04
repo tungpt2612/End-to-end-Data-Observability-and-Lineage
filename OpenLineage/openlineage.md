@@ -70,3 +70,7 @@ curl -X POST http://localhost:5000/api/v1/lineage   -i -H 'Content-Type: applica
         "schemaURL": "https://openlineage.io/spec/1-0-5/OpenLineage.json#/definitions/RunEvent"
       }'
 ```
+
+- Marquez Console
+
+<kbd>![marquez-console](/OpenLineage/marquez-console.png)<kbd>
