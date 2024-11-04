@@ -84,3 +84,20 @@ CREATE TABLE "TEMENOS"."RAW_COUNTRY"
 	"COUNTRY_NAME" VARCHAR2(20)
    );
 ```
+
+- Insert records
+```sql
+INSERT INTO TEMENOS.RAW_CITY (COUNTRY_CODE,CITY_CODE,CITY_NAME) VALUES
+	 ('vn','hn','HaNoi'),
+	 ('my','kl','KualaLumpur');
+```
+
+```sql
+INSERT INTO TEMENOS.RAW_COUNTRY (COUNTRY_CODE,COUNTRY_NAME) VALUES
+	 ('vn','VietNam'),
+	 ('my','Malaysia');
+```
+
+```sql
+commit;
+```
