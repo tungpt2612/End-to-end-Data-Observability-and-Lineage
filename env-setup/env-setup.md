@@ -9,12 +9,12 @@ ssh -i ~/.ssh/bsp root@XXX.XXX.XX.XX
 ```
 
 - Using root user
-```console
+```shell script
 sudo su -
 ```
 
 - Install docker components
-```console
+```shell script
 sudo apt-get update
 sudo apt-get install docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin
 apt-get install docker-compose-plugin
