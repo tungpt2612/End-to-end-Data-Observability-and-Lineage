@@ -1,11 +1,20 @@
-# Solution Architecture
-This section covers the Solution Architecture for the lifecycle of Data Products. 
-We have defined Data Products as having 3 stages in their development: Create, Serve and Realize which we will go in to depth on. 
+# End to end Data Observability and Data Lineage
 
-The solution is based on IBM Technology and in the Deployment Architecture we will show the core components of the architecture, highlighting the elements that are critical to build this solution. 
 
-Finally, we will show some client driven use cases that require a Data Product solution lifecycle approach.
 
+## Environments:
+- Ubuntu 22.04
+	- Host the OpenLineage / Marquez and Oracle Container Database
+- Oracle Container 19c
+	- Serve as data source for traditional RDBMS.
+- DataStage NextGen
+	- Use for exporting data from Oracle RDBMS to csv file in Amazon S3
+- Amazon S3
+	- Contain Staging data in CSV format.
+- Glue Spark
+	- Use for ingesting data in csv file from Amazon S3 to Amazon Redshift
+- RedShift Serverless
+	- Use for DataWarehouse data store with store procedure.
 
 ## Table of Contents
 
