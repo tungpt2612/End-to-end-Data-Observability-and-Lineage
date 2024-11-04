@@ -145,7 +145,7 @@ spark.extraListeners=io.openlineage.spark.agent.OpenLineageSparkListener --conf 
 true
 ```
 
-## Addtional Jars for Glue Job
+## Additional Jars for Glue Job
 - Download Jar file from the link
 ```console
 https://repo.maven.apache.org/maven2/io/openlineage/openlineage-spark/1.4.1/openlineage-spark-1.4.1.jar
