@@ -45,7 +45,7 @@ DataStage will be used for ETL from OLTP to Staging and Glue Job Spark will be u
 
 	
 	
-## <p align="right">[[Next] Environment Setup ](env-setup/env-setup.md)</p>
+## <p align="center">[[Next] Environment Setup ](env-setup/env-setup.md)</p>
 
 
 
