@@ -1,3 +1,5 @@
+### <p align="center"> [&rarr; &rarr; &rarr; &rarr; &rarr; Environment Setup ](env-setup/env-setup.md)</p>
+
 # End to end Data Observability and Data Lineage
 
 This section covers step by step guidance for PoX of Databand and Manta.
@@ -38,14 +40,6 @@ DataStage will be used for ETL from OLTP to Staging and Glue Job Spark will be u
 - Local Spark
     - [Local Spark](local-spark/local-spark.md)
 
-
-
-
-
-
-	
-	
-## <p align="center">[[Next] Environment Setup ](env-setup/env-setup.md)</p>
-
+### <p align="center"> [&rarr; &rarr; &rarr; &rarr; &rarr; Environment Setup ](env-setup/env-setup.md)</p>
 
 
