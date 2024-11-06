@@ -1,3 +1,5 @@
+## <p align="center">[[Previous] Environment Setup](../env-setup/env-setup.md)</p> 
+
 # OpenLineage Setup
 
 This section covers step by step guidance for Oracle Database Container Setup.
@@ -102,5 +104,4 @@ INSERT INTO TEMENOS.RAW_COUNTRY (COUNTRY_CODE,COUNTRY_NAME) VALUES
 commit;
 ```
 
-## <p align="center">[[Previous] Environment Setup](../env-setup/env-setup.md)</p> 
 ## <p align="center">[[Next] OpenLineage](../OpenLineage/openlineage.md)</p>

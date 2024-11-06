@@ -1,3 +1,5 @@
+## <p align="center">[[Previous] Oracle Database](../oracle-database/oracle-db.md)</p>
+
 # OpenLineage Setup
 
 This section covers step by step guidance for OpenLineage Setup.
@@ -119,5 +121,4 @@ zip -r input.zip input
 ```
 <kbd>![manta-input-structure](/OpenLineage/manta-input-structure.png)<kbd>
 	
-## <p align="center">[[Previous] Oracle Database](../oracle-database/oracle-db.md)</p>
 ## <p align="center">[[Next] Glue Job](../glue-job/glue-job.md)</p>
