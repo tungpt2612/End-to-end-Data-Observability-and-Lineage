@@ -38,8 +38,8 @@ DataStage will be used for ETL from OLTP to Staging and Glue Job Spark will be u
 - Local Spark
     - [Local Spark](local-spark/local-spark.md)
 	
-### [[Next]](env-setup/env-setup.md) $${\color{Environment Setup}Red}$$
+### [[Next]](env-setup/env-setup.md) $${\color{green}Environment \space Setup}$$
 
-$${\color{green}Environment \space Setup}$$
+
 
 
