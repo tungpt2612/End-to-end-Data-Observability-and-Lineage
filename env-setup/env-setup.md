@@ -86,4 +86,4 @@ spark-shell
 exit
 ```
 
-## [[Previous] README](../README.md) <p align="right">[[Next] Oracle Database Setup](oracle-database/oracle-db.md)</p>
+## <p align="left">[[Previous] README](../README.md)</p> <p align="right">[[Next] Oracle Database Setup](oracle-database/oracle-db.md)</p>
