@@ -1,4 +1,4 @@
-## <p align="center">[[Previous] Environment Setup](../env-setup/env-setup.md)</p> 
+### <p align="center">[Environment Setup &larr; &larr; &larr; &larr; &larr;](../env-setup/env-setup.md) [&rarr; &rarr; &rarr; &rarr; &rarr; OpenLineage](../OpenLineage/openlineage.md)</p>
 
 # Oracle Database Setup
 
@@ -104,4 +104,4 @@ INSERT INTO TEMENOS.RAW_COUNTRY (COUNTRY_CODE,COUNTRY_NAME) VALUES
 commit;
 ```
 
-## <p align="center">[[Next] OpenLineage](../OpenLineage/openlineage.md)</p>
+### <p align="center">[Environment Setup &larr; &larr; &larr; &larr; &larr;](../env-setup/env-setup.md) [&rarr; &rarr; &rarr; &rarr; &rarr; OpenLineage](../OpenLineage/openlineage.md)</p>
