@@ -1,6 +1,3 @@
-###<p align="center">[[Previous] README](../README.md)</p> 
-
-
 # Environment Setup
 
 This section covers step by step guidance for Environment Setup.
@@ -89,4 +86,5 @@ spark-shell
 exit
 ```
 
+## <p align="center">[[Previous] README](../README.md)</p> 
 ## <p align="center">[[Next] Oracle Database Setup](../oracle-database/oracle-db.md)</p>
