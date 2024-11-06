@@ -1,4 +1,4 @@
-<p align="center">[[Previous] README](../README.md)</p> 
+[[Previous] README](../README.md)
 
 
 # Environment Setup
