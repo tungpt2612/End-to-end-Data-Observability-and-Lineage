@@ -1,4 +1,4 @@
-### <p align="center">[Oracle Database &larr; &larr; &larr; &larr; &larr;](../oracle-database/oracle-db.md) [&rarr; &rarr; &rarr; &rarr; &rarr; Glue Job](../glue-job/glue-job.md)</p>
+### <p align="center">[&larr; [Oracle Database]----------](../oracle-database/oracle-db.md) [----------[Glue Job] &rarr;](../glue-job/glue-job.md)</p>
 
 # OpenLineage Setup
 
@@ -121,4 +121,4 @@ zip -r input.zip input
 ```
 <kbd>![manta-input-structure](/OpenLineage/manta-input-structure.png)<kbd>
 	
-### <p align="center">[Oracle Database &larr; &larr; &larr; &larr; &larr;](../oracle-database/oracle-db.md) [&rarr; &rarr; &rarr; &rarr; &rarr; Glue Job](../glue-job/glue-job.md)</p>
+### <p align="center">[&larr; [Oracle Database]----------](../oracle-database/oracle-db.md) [----------[Glue Job] &rarr;](../glue-job/glue-job.md)</p>
