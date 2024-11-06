@@ -87,4 +87,4 @@ exit
 ```
 
 ## <p align="center">[[Previous] README](../README.md)</p> 
-## <p align="center">[[Next] Oracle Database Setup](oracle-database/oracle-db.md)</p>
+## <p align="center">[[Next] Oracle Database Setup](../oracle-database/oracle-db.md)</p>
