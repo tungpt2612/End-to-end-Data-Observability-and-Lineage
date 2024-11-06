@@ -1,6 +1,6 @@
 ## <p align="center">[[Previous] Environment Setup](../env-setup/env-setup.md)</p> 
 
-# OpenLineage Setup
+# Oracle Database Setup
 
 This section covers step by step guidance for Oracle Database Container Setup.
 
