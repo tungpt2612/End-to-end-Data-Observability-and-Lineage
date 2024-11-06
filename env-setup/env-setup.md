@@ -1,4 +1,4 @@
-<p align="left">[[Previous] README](../README.md)</p> <p align="right">[[Previous] README](../README.md)</p> 
+##<p align="center">[[Previous] README](../README.md)							[[Next] Oracle Database Setup](../oracle-database/oracle-db.md)</p> 
 
 
 # Environment Setup
