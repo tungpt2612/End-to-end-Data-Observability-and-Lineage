@@ -102,5 +102,5 @@ INSERT INTO TEMENOS.RAW_COUNTRY (COUNTRY_CODE,COUNTRY_NAME) VALUES
 commit;
 ```
 
-## <p align="center">[[Previous] Oracle Database](../oracle-database/oracle-db.md)</p> 
-## <p align="center">[[Next] Glue Job](../glue-job/glue-job.md)</p>
+## <p align="center">[[Previous] Environment Setup](../env-setup/env-setup.md)</p> 
+## <p align="center">[[Next] OpenLineage](../OpenLineage/openlineage.md)</p>
