@@ -1,4 +1,4 @@
-### <p align="center">[README &larr; &larr; &larr; &larr; &larr;](../README.md) [&rarr; &rarr; &rarr; &rarr; &rarr;Oracle Database Setup ](../oracle-database/oracle-db.md)</p>
+## <p align="left">[README &larr; &larr; &larr; &larr; &larr;](../README.md)</p>
 # Environment Setup
 
 This section covers step by step guidance for Environment Setup.
@@ -87,4 +87,4 @@ spark-shell
 exit
 ```
 
-### <p align="center">[README &larr; &larr; &larr; &larr; &larr;](../README.md) [&rarr; &rarr; &rarr; &rarr; &rarr;Oracle Database Setup ](../oracle-database/oracle-db.md)</p>
+### <p align="right">[Oracle Database &rarr;](../oracle-database/oracle-db.md)</p>
